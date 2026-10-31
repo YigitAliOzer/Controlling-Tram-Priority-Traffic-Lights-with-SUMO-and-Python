@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-31T14:10:58.205349+03:00 by Eclipse SUMO netedit 1.28.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\PC\Documents\SUMO Projeler\SUMO Projeler\Tramvay_simulasyon.sumocfg"/>
+        <additional-files value="C:\Users\PC\Documents\SUMO Projeler\SUMO Projeler\Tramvay_simulasyon.add.xml"/>
+        <route-files value="C:\Users\PC\Documents\SUMO Projeler\SUMO Projeler\Tramvay_simulasyon.rou.xml,C:\Users\PC\Documents\SUMO Projeler\SUMO Projeler\tramvay_guzergah.rou.xml"/>
+        <sumo-net-file value="C:\Users\PC\Documents\SUMO Projeler\SUMO Projeler\tramvay_sinyalizasyon.xml.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\PC\Documents\SUMO Projeler\SUMO Projeler\tramvay_sinyalizasyon.xml.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" avoidOverlap="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-180.71,-185.26,359.92,153.09" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":J0_0" function="internal">
+        <lane id=":J0_0_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="0.28" shape="-86.06,1.80 -86.32,1.80"/>
+        <lane id=":J0_0_1" index="1" allow="tram" speed="11.11" length="0.28" shape="-86.07,-1.40 -86.35,-1.40"/>
+    </edge>
+    <edge id=":J0_2" function="internal">
+        <lane id=":J0_2_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="0.32" shape="-86.41,-7.80 -86.09,-7.80"/>
+        <lane id=":J0_2_1" index="1" allow="tram" speed="11.11" length="0.32" width="3.20" shape="-86.38,-4.60 -86.08,-4.60"/>
+    </edge>
+    <edge id=":J1_0" function="internal">
+        <lane id=":J1_0_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="6.64" length="9.36" shape="70.35,1.36 67.82,1.71 65.99,2.79 64.88,4.60 64.48,7.13"/>
+    </edge>
+    <edge id=":J1_1" function="internal">
+        <lane id=":J1_1_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="21.02" shape="70.35,1.36 49.34,1.35"/>
+    </edge>
+    <edge id=":J1_2" function="internal">
+        <lane id=":J1_2_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.06" length="9.71" shape="70.35,1.36 64.94,-0.06 61.64,-2.51"/>
+    </edge>
+    <edge id=":J1_3" function="internal">
+        <lane id=":J1_3_0" index="0" allow="tram" speed="11.11" length="21.04" shape="70.36,-1.84 49.33,-1.85"/>
+    </edge>
+    <edge id=":J1_16" function="internal">
+        <lane id=":J1_16_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.06" length="13.64" shape="61.64,-2.51 60.06,-3.69 56.56,-8.66 55.29,-14.11"/>
+    </edge>
+    <edge id=":J1_4" function="internal">
+        <lane id=":J1_4_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="6.47" length="9.03" shape="64.88,-13.89 65.18,-11.43 66.20,-9.66 67.93,-8.60 70.39,-8.24"/>
+    </edge>
+    <edge id=":J1_5" function="internal">
+        <lane id=":J1_5_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="21.02" shape="64.88,-13.89 64.48,7.13"/>
+    </edge>
+    <edge id=":J1_6" function="internal">
+        <lane id=":J1_6_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.25" length="5.45" shape="64.88,-13.89 63.46,-8.63"/>
+    </edge>
+    <edge id=":J1_7" function="internal">
+        <lane id=":J1_7_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="21.04" shape="61.69,-13.96 61.28,7.07"/>
+    </edge>
+    <edge id=":J1_17" function="internal">
+        <lane id=":J1_17_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.25" length="18.02" shape="63.46,-8.63 63.41,-8.45 59.77,-3.56 54.81,-0.02 49.34,1.35"/>
+    </edge>
+    <edge id=":J1_8" function="internal">
+        <lane id=":J1_8_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="6.72" length="9.50" shape="49.31,-8.25 51.87,-8.62 53.73,-9.72 54.86,-11.55 55.29,-14.11"/>
+    </edge>
+    <edge id=":J1_9" function="internal">
+        <lane id=":J1_9_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="21.08" shape="49.31,-8.25 70.39,-8.24"/>
+    </edge>
+    <edge id=":J1_10" function="internal">
+        <lane id=":J1_10_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.05" length="9.81" shape="49.31,-8.25 54.73,-6.87 58.12,-4.38"/>
+    </edge>
+    <edge id=":J1_11" function="internal">
+        <lane id=":J1_11_0" index="0" allow="tram" speed="11.11" length="21.06" shape="49.32,-5.05 70.38,-5.04"/>
+    </edge>
+    <edge id=":J1_18" function="internal">
+        <lane id=":J1_18_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.05" length="13.55" shape="58.12,-4.38 59.63,-3.27 63.17,1.68 64.48,7.13"/>
+    </edge>
+    <edge id=":J1_12" function="internal">
+        <lane id=":J1_12_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="6.46" length="9.03" shape="54.88,6.97 54.57,4.50 53.54,2.75 51.80,1.70 49.34,1.35"/>
+    </edge>
+    <edge id=":J1_13" function="internal">
+        <lane id=":J1_13_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="21.08" shape="54.88,6.97 55.29,-14.11"/>
+    </edge>
+    <edge id=":J1_14" function="internal">
+        <lane id=":J1_14_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.19" length="5.44" shape="54.88,6.97 56.28,1.71"/>
+    </edge>
+    <edge id=":J1_15" function="internal">
+        <lane id=":J1_15_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="21.06" shape="58.08,7.02 58.49,-14.03"/>
+    </edge>
+    <edge id=":J1_19" function="internal">
+        <lane id=":J1_19_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="10.19" length="18.00" shape="56.28,1.71 56.33,1.53 59.96,-3.36 64.93,-6.89 70.39,-8.24"/>
+    </edge>
+    <edge id=":J2_0" function="internal">
+        <lane id=":J2_0_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="0.32" shape="204.22,1.86 203.89,1.86"/>
+        <lane id=":J2_0_1" index="1" allow="tram" speed="11.11" length="0.32" shape="204.21,-1.34 203.90,-1.34"/>
+    </edge>
+    <edge id=":J2_2" function="internal">
+        <lane id=":J2_2_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="0.28" shape="203.93,-7.74 204.20,-7.74"/>
+        <lane id=":J2_2_1" index="1" allow="tram" speed="11.11" length="0.28" shape="203.92,-4.54 204.21,-4.54"/>
+    </edge>
+
+    <edge id="Lane1" from="J5" to="J0" priority="-1">
+        <lane id="Lane1_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="94.35" shape="-180.76,-6.91 -86.41,-7.80"/>
+        <lane id="Lane1_1" index="1" allow="tram" speed="11.11" length="94.35" shape="-180.73,-3.71 -86.38,-4.60"/>
+    </edge>
+    <edge id="Lane10" from="J1" to="J3" priority="-1">
+        <lane id="Lane10_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="146.06" shape="64.48,7.13 62.06,153.17"/>
+        <lane id="Lane10_1" index="1" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="146.06" shape="61.28,7.07 58.86,153.12"/>
+    </edge>
+    <edge id="Lane11" from="J1" to="J4" priority="-1">
+        <lane id="Lane11_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="171.30" shape="55.29,-14.11 59.13,-185.37"/>
+        <lane id="Lane11_1" index="1" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="171.30" shape="58.49,-14.03 62.33,-185.30"/>
+    </edge>
+    <edge id="Lane12" from="J4" to="J1" priority="-1">
+        <lane id="Lane12_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="171.30" shape="68.73,-185.15 64.88,-13.89"/>
+        <lane id="Lane12_1" index="1" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="171.30" shape="65.53,-185.22 61.69,-13.96"/>
+    </edge>
+    <edge id="Lane2" from="J0" to="J5" priority="-1">
+        <lane id="Lane2_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="94.35" shape="-86.32,1.80 -180.66,2.69"/>
+        <lane id="Lane2_1" index="1" allow="tram" speed="11.11" length="94.35" shape="-86.35,-1.40 -180.69,-0.51"/>
+    </edge>
+    <edge id="Lane3" from="J0" to="J1" priority="-1">
+        <lane id="Lane3_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="135.39" shape="-86.09,-7.80 49.31,-8.25"/>
+        <lane id="Lane3_1" index="1" allow="tram" speed="11.11" length="135.39" width="3.20" shape="-86.08,-4.60 49.32,-5.05"/>
+    </edge>
+    <edge id="Lane4" from="J1" to="J0" priority="-1">
+        <lane id="Lane4_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="135.39" shape="49.34,1.35 -86.06,1.80"/>
+        <lane id="Lane4_1" index="1" allow="tram" speed="11.11" length="135.39" shape="49.33,-1.85 -86.07,-1.40"/>
+    </edge>
+    <edge id="Lane5" from="J1" to="J2" priority="-1">
+        <lane id="Lane5_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="133.54" shape="70.39,-8.24 203.93,-7.74"/>
+        <lane id="Lane5_1" index="1" allow="tram" speed="11.11" length="133.54" shape="70.38,-5.04 203.92,-4.54"/>
+    </edge>
+    <edge id="Lane6" from="J2" to="J1" priority="-1">
+        <lane id="Lane6_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="133.54" shape="203.89,1.86 70.35,1.36"/>
+        <lane id="Lane6_1" index="1" allow="tram" speed="11.11" length="133.54" shape="203.90,-1.34 70.36,-1.84"/>
+    </edge>
+    <edge id="Lane7" from="J2" to="J6" priority="-1">
+        <lane id="Lane7_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="155.71" shape="204.20,-7.74 359.91,-8.02"/>
+        <lane id="Lane7_1" index="1" allow="tram" speed="11.11" length="155.71" shape="204.21,-4.54 359.92,-4.82"/>
+    </edge>
+    <edge id="Lane8" from="J6" to="J2" priority="-1">
+        <lane id="Lane8_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="155.71" shape="359.93,1.58 204.22,1.86"/>
+        <lane id="Lane8_1" index="1" allow="tram" speed="11.11" length="155.71" shape="359.92,-1.62 204.21,-1.34"/>
+    </edge>
+    <edge id="Lane9" from="J3" to="J1" priority="-1">
+        <lane id="Lane9_0" index="0" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="146.06" shape="52.46,153.01 54.88,6.97"/>
+        <lane id="Lane9_1" index="1" allow="emergency passenger taxi bus coach delivery truck motorcycle moped" speed="13.89" length="146.06" shape="55.66,153.06 58.08,7.02"/>
+    </edge>
+
+    <tlLogic id="J1" type="static" programID="0" offset="0">
+        <phase duration="25" state="GGgGrrrrGGgGrrrr"/>
+        <phase duration="3"  state="yyyyrrrryyyyrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="25" state="rrrrGGgGrrrrGGgG"/>
+        <phase duration="3"  state="rrrryyyyrrrryyyy"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="J1" type="static" programID="1" offset="0">
+        <phase duration="25" state="GGgGrrrrGGgGrrrr"/>
+        <phase duration="3"  state="yyyyrrrryyyyrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="25" state="rrrrGGgGrrrrGGgG"/>
+        <phase duration="3"  state="rrrryyyyrrrryyyy"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <junction id="J0" type="priority" x="-86.22" y="-3.00" incLanes="Lane4_0 Lane4_1 Lane1_0 Lane1_1" intLanes=":J0_0_0 :J0_0_1 :J0_2_0 :J0_2_1" shape="-86.05,3.40 -86.09,-9.40 -86.43,-9.40 -86.31,3.40">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="J1" type="traffic_light" x="59.85" y="-3.48" incLanes="Lane6_0 Lane6_1 Lane12_0 Lane12_1 Lane3_0 Lane3_1 Lane9_0 Lane9_1" intLanes=":J1_0_0 :J1_1_0 :J1_16_0 :J1_3_0 :J1_4_0 :J1_5_0 :J1_17_0 :J1_7_0 :J1_8_0 :J1_9_0 :J1_18_0 :J1_11_0 :J1_12_0 :J1_13_0 :J1_19_0 :J1_15_0" shape="70.35,2.96 70.39,-9.84 68.18,-10.29 67.42,-10.85 66.88,-11.63 66.57,-12.63 66.48,-13.85 53.69,-14.14 53.16,-11.76 52.54,-10.93 51.70,-10.33 50.61,-9.97 49.30,-9.85 49.34,2.95 51.56,3.39 52.33,3.94 52.87,4.72 53.19,5.72 53.28,6.94 66.07,7.15 66.58,4.82 67.18,4.00 68.00,3.42 69.06,3.07">
+        <request index="0"  response="0000000010100000" foes="0000010010100000" cont="0"/>
+        <request index="1"  response="1111000011100000" foes="1111010011100000" cont="0"/>
+        <request index="2"  response="1110101111101000" foes="1110111111101000" cont="1"/>
+        <request index="3"  response="1110000011100000" foes="1110010011100100" cont="0"/>
+        <request index="4"  response="0000000000000000" foes="0100001000000000" cont="0"/>
+        <request index="5"  response="0000010000000100" foes="0100111000001111" cont="0"/>
+        <request index="6"  response="1111010010000100" foes="1111111010001110" cont="1"/>
+        <request index="7"  response="0000010000000100" foes="0100111001001111" cont="0"/>
+        <request index="8"  response="1010000000000000" foes="1010000000000100" cont="0"/>
+        <request index="9"  response="1110000011110000" foes="1110000011110100" cont="0"/>
+        <request index="10" response="1110100011101111" foes="1110100011101111" cont="1"/>
+        <request index="11" response="1110000011100000" foes="1110010011100100" cont="0"/>
+        <request index="12" response="0000000000000000" foes="0000000001000010" cont="0"/>
+        <request index="13" response="0000010000000100" foes="0000111101001110" cont="0"/>
+        <request index="14" response="1000010010110100" foes="1000111011111110" cont="1"/>
+        <request index="15" response="0000010000000100" foes="0100111101001110" cont="0"/>
+    </junction>
+    <junction id="J2" type="priority" x="204.06" y="-2.94" incLanes="Lane8_0 Lane8_1 Lane5_0 Lane5_1" intLanes=":J2_0_0 :J2_0_1 :J2_2_0 :J2_2_1" shape="204.22,3.46 204.20,-9.34 203.93,-9.34 203.89,3.46">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="J3" type="dead_end" x="57.26" y="153.09" incLanes="Lane10_0 Lane10_1" intLanes="" shape="57.26,153.09 63.66,153.20 57.26,153.09"/>
+    <junction id="J4" type="dead_end" x="63.93" y="-185.26" incLanes="Lane11_0 Lane11_1" intLanes="" shape="63.93,-185.26 57.53,-185.40 63.93,-185.26"/>
+    <junction id="J5" type="dead_end" x="-180.71" y="-2.11" incLanes="Lane2_0 Lane2_1" intLanes="" shape="-180.71,-2.11 -180.65,4.29 -180.71,-2.11"/>
+    <junction id="J6" type="dead_end" x="359.92" y="-3.22" incLanes="Lane7_0 Lane7_1" intLanes="" shape="359.92,-3.22 359.91,-9.62 359.92,-3.22"/>
+
+    <junction id=":J1_16_0" type="internal" x="61.64" y="-2.51" incLanes=":J1_2_0 Lane3_0 Lane3_1" intLanes=":J1_3_0 :J1_5_0 :J1_6_0 :J1_7_0 :J1_8_0 :J1_9_0 :J1_10_0 :J1_11_0 :J1_13_0 :J1_14_0 :J1_15_0"/>
+    <junction id=":J1_17_0" type="internal" x="63.46" y="-8.63" incLanes=":J1_6_0 :J1_14_0 Lane9_0 Lane9_1" intLanes=":J1_19_0 :J1_1_0 :J1_2_0 :J1_3_0 :J1_7_0 :J1_9_0 :J1_10_0 :J1_11_0 :J1_12_0 :J1_13_0 :J1_14_0 :J1_15_0"/>
+    <junction id=":J1_18_0" type="internal" x="58.12" y="-4.38" incLanes=":J1_10_0 Lane6_0 Lane6_1" intLanes=":J1_0_0 :J1_1_0 :J1_2_0 :J1_3_0 :J1_5_0 :J1_6_0 :J1_7_0 :J1_11_0 :J1_13_0 :J1_14_0 :J1_15_0"/>
+    <junction id=":J1_19_0" type="internal" x="56.28" y="1.71" incLanes=":J1_14_0 Lane12_0 Lane12_1" intLanes=":J1_1_0 :J1_2_0 :J1_3_0 :J1_4_0 :J1_5_0 :J1_6_0 :J1_7_0 :J1_9_0 :J1_10_0 :J1_11_0 :J1_15_0"/>
+
+    <connection from="Lane1" to="Lane3" fromLane="0" toLane="0" via=":J0_2_0" dir="s" state="M"/>
+    <connection from="Lane1" to="Lane3" fromLane="1" toLane="1" via=":J0_2_1" dir="s" state="M"/>
+    <connection from="Lane12" to="Lane5" fromLane="0" toLane="0" via=":J1_4_0" tl="J1" linkIndex="4" dir="r" state="O"/>
+    <connection from="Lane12" to="Lane10" fromLane="0" toLane="0" via=":J1_5_0" tl="J1" linkIndex="5" dir="s" state="O"/>
+    <connection from="Lane12" to="Lane4" fromLane="0" toLane="0" via=":J1_6_0" tl="J1" linkIndex="6" dir="l" state="o"/>
+    <connection from="Lane12" to="Lane10" fromLane="1" toLane="1" via=":J1_7_0" tl="J1" linkIndex="7" dir="s" state="O"/>
+    <connection from="Lane3" to="Lane11" fromLane="0" toLane="0" via=":J1_8_0" tl="J1" linkIndex="8" dir="r" state="o"/>
+    <connection from="Lane3" to="Lane5" fromLane="0" toLane="0" via=":J1_9_0" tl="J1" linkIndex="9" dir="s" state="o"/>
+    <connection from="Lane3" to="Lane10" fromLane="0" toLane="0" via=":J1_10_0" tl="J1" linkIndex="10" dir="l" state="o"/>
+    <connection from="Lane3" to="Lane5" fromLane="1" toLane="1" via=":J1_11_0" tl="J1" linkIndex="11" dir="s" state="o"/>
+    <connection from="Lane4" to="Lane2" fromLane="0" toLane="0" via=":J0_0_0" dir="s" state="M"/>
+    <connection from="Lane4" to="Lane2" fromLane="1" toLane="1" via=":J0_0_1" dir="s" state="M"/>
+    <connection from="Lane5" to="Lane7" fromLane="0" toLane="0" via=":J2_2_0" dir="s" state="M"/>
+    <connection from="Lane5" to="Lane7" fromLane="1" toLane="1" via=":J2_2_1" dir="s" state="M"/>
+    <connection from="Lane6" to="Lane10" fromLane="0" toLane="0" via=":J1_0_0" tl="J1" linkIndex="0" dir="r" state="o"/>
+    <connection from="Lane6" to="Lane4" fromLane="0" toLane="0" via=":J1_1_0" tl="J1" linkIndex="1" dir="s" state="o"/>
+    <connection from="Lane6" to="Lane11" fromLane="0" toLane="0" via=":J1_2_0" tl="J1" linkIndex="2" dir="l" state="o"/>
+    <connection from="Lane6" to="Lane4" fromLane="1" toLane="1" via=":J1_3_0" tl="J1" linkIndex="3" dir="s" state="o"/>
+    <connection from="Lane8" to="Lane6" fromLane="0" toLane="0" via=":J2_0_0" dir="s" state="M"/>
+    <connection from="Lane8" to="Lane6" fromLane="1" toLane="1" via=":J2_0_1" dir="s" state="M"/>
+    <connection from="Lane9" to="Lane4" fromLane="0" toLane="0" via=":J1_12_0" tl="J1" linkIndex="12" dir="r" state="O"/>
+    <connection from="Lane9" to="Lane11" fromLane="0" toLane="0" via=":J1_13_0" tl="J1" linkIndex="13" dir="s" state="O"/>
+    <connection from="Lane9" to="Lane5" fromLane="0" toLane="0" via=":J1_14_0" tl="J1" linkIndex="14" dir="l" state="o"/>
+    <connection from="Lane9" to="Lane11" fromLane="1" toLane="1" via=":J1_15_0" tl="J1" linkIndex="15" dir="s" state="O"/>
+
+    <connection from=":J0_0" to="Lane2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J0_0" to="Lane2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J0_2" to="Lane3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J0_2" to="Lane3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_0" to="Lane10" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_1" to="Lane4" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_2" to="Lane11" fromLane="0" toLane="0" via=":J1_16_0" dir="l" state="m"/>
+    <connection from=":J1_16" to="Lane11" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_3" to="Lane4" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_4" to="Lane5" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_5" to="Lane10" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_6" to="Lane4" fromLane="0" toLane="0" via=":J1_17_0" dir="l" state="m"/>
+    <connection from=":J1_17" to="Lane4" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_7" to="Lane10" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_8" to="Lane11" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_9" to="Lane5" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_10" to="Lane10" fromLane="0" toLane="0" via=":J1_18_0" dir="l" state="m"/>
+    <connection from=":J1_18" to="Lane10" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_11" to="Lane5" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":J1_12" to="Lane4" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_13" to="Lane11" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J1_14" to="Lane5" fromLane="0" toLane="0" via=":J1_19_0" dir="l" state="m"/>
+    <connection from=":J1_19" to="Lane5" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":J1_15" to="Lane11" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":J2_0" to="Lane6" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J2_0" to="Lane6" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":J2_2" to="Lane7" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":J2_2" to="Lane7" fromLane="1" toLane="1" dir="s" state="M"/>
+
+</net>
