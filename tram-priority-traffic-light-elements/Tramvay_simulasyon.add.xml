@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-31T14:00:15.006498+03:00 by Eclipse SUMO netedit 1.28.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="dedektor_1" lane="Lane3_1" pos="-130.00" period="60.00" file="e1_4.xml"/>
+    <inductionLoop id="dedektor_2" name="Doğu Tramvay Dedektörü" lane="Lane8_1" pos="-80.00" period="60.00" file="tram_dedector_output.xml" vTypes="tram_type"/>
+</additional>
