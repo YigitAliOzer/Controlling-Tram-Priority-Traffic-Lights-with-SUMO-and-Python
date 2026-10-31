@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-31T14:13:19.403848+03:00 by Eclipse SUMO netedit 1.28.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="otomobil" maxSpeed="13.89"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_2" type="otomobil" begin="0.00" end="600.00" period="exp(0.08000000000000000167)" from="Lane1" to="Lane7" via="Lane3 Lane5"/>
+    <flow id="f_3" type="otomobil" begin="0.00" end="900.00" period="exp(0.08000000000000000167)" color="128,0,128" from="Lane1" to="Lane11" via="Lane3"/>
+    <flow id="f_4" type="otomobil" begin="0.00" end="900.00" period="exp(0.08000000000000000167)" color="0,128,128" from="Lane8" to="Lane2" via="Lane6 Lane4"/>
+    <flow id="f_5" type="otomobil" begin="0.00" end="600.00" period="exp(0.08000000000000000167)" from="Lane8" to="Lane10" via="Lane6"/>
+    <flow id="f_6" type="otomobil" begin="0.00" end="600.00" period="exp(0.08000000000000000167)" from="Lane12" to="Lane10"/>
+    <flow id="f_7" type="otomobil" begin="0.00" end="900.00" period="exp(0.08000000000000000167)" color="cyan" from="Lane12" to="Lane7" via="Lane5"/>
+    <flow id="f_8" type="otomobil" begin="0.00" end="600.00" period="exp(0.08000000000000000167)" from="Lane9" to="Lane2" via="Lane4"/>
+    <flow id="f_9" type="otomobil" begin="0.00" end="900.00" period="exp(0.08000000000000000167)" color="0,0,128" from="Lane9" to="Lane11"/>
+    <flow id="tramvay_donus" type="tram" begin="0.00" end="900.00" period="90" color="blue" from="Lane8" to="Lane2" via="Lane6 Lane4"/>
+    <flow id="tramvay_gidis" type="tram" begin="0.00" end="900.00" period="90" color="blue" from="Lane1" to="Lane7" via="Lane3 Lane5"/>
+</routes>
