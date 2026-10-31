@@ -23,5 +23,11 @@ Python->NumPy,MatPlotLib,Pandas Libraries(For planned analyzes)
 Artificial Intelligence (AI) Assistance and Integrity
 Artificial Intelligence (AI) tools were used for conceptual explanations, troubleshooting guidance, and documentation support.
 
+How to Run
+1. Install Eclipse SUMO.
+2. Download or clone this repository.
+3. Open `Tramvay_simulasyon.sumocfg` in SUMO-GUI.
+4. Run `SUMO-Python.py` to test the TraCI-based detection system.(When planned phases being finished)
+
 
 
