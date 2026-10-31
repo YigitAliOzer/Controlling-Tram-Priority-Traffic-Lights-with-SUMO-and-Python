@@ -1,6 +1,6 @@
 import traci #Calling TraCI Library
 
-traci.start(["sumo-gui","-c","Tramvay_simulasyon.sumocfg","--start", "--delay","100"]) #Starting SUMO With Python
+traci.start(["sumo-gui","-c","Tramvay_simulasyon.sumocfg","--start", "--delay","300"]) #Starting SUMO With Python
 
 Detectors = traci.inductionloop.getIDList() 
 
