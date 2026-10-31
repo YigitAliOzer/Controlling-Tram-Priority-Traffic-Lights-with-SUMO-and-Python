@@ -16,12 +16,12 @@ Tram data from the detector will be evaluated by the controller to predict arriv
 Study Status: In Progress
 
 Software Tools
-SUMO
+SUMO(Simulation of Urban MObility)
 Python->TraCI Library
 Python->NumPy,MatPlotLib,Pandas Libraries(For planned analyzes)
 
 Artificial Intelligence (AI) Assistance and Integrity
-Artificial Intelligence (AI) tools were used for conceptual explanations, troubleshooting guidance, and documentation support.
+Artificial Intelligence (AI) tools were used for conceptual explanations, troubleshooting assistance, and documentation support.
 
 How to Run
 1. Install Eclipse SUMO.
