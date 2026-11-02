@@ -29,5 +29,26 @@ How to Run
 3. Open `Tramvay_simulasyon.sumocfg` in SUMO-GUI.
 4. Run `SUMO-Python.py` to test the TraCI-based detection system.(When planned phases being finished)
 
+Study Phases
+
+Baseline Results
+A fixed-time simulation was conducted to establish reference performance before implementing tram signal priority.
+
+| Metric                            | Trams  | Road Vehicles |
+|-----------------------------------|-------:|--------------:|
+| Completed trips                   | 20     | 471           |
+| Average trip duration (s)         | 53.00  | 50.88         |
+| Average waiting time (s)          | 3.25   | 9.97          |
+| Average time loss (s)             | 6.74   | 17.79         |
+| Vehicles stopped at least once (%)| 50.0   | 63.1          |
+
+Both tram detectors successfully recorded approaching vehicles, including their speeds, distances, estimated arrival times (ETA), and traffic signal states.
+Results are based on a single simulation run using random seed 42.
+
+Results and Data
+Detailed baseline measurements are available in the baseline_test_measurements_and_results/ directory:
+baseline_summary.md — Experiment summary and findings
+baseline_metrics.csv — Average performance indicators
+baseline_tram_details.csv — Individual tram performance records
 
 
