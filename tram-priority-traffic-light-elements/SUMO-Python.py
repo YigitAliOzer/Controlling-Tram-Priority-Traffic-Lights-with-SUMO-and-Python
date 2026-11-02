@@ -5,9 +5,12 @@ traci.start([
     "sumo-gui",
     "-c", "Tramvay_simulasyon.sumocfg",
     "--start",
-    "--delay", "100"
+    "--delay", "100",
+    "--tripinfo-output",
+"baseline_tripinfo.xml",
+    "--seed","42",
+    "--log", "sumo_error.log"
 ])
-
 # Getting detector information
 Detectors = traci.inductionloop.getIDList()
 
