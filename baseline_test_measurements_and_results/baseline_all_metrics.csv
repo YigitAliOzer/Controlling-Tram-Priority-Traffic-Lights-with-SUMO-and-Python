@@ -1,0 +1,5 @@
+group,completed_trips,stopped_vehicles,mean_trip_duration_s,mean_waiting_time_s,mean_time_loss_s,mean_stop_count
+All trams,20,10,53.0,3.25,6.737,0.5
+Outbound trams (gidiş),10,5,54.5,4.5,8.075,0.5
+Return trams (dönüş),10,5,51.5,2.0,5.4,0.5
+Road vehicles,471,297,50.875,9.97,17.79,0.637
